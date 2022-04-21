@@ -3,9 +3,11 @@
 }
 
 #mole-flex {
+  width:100vw;
   margin-left: 20em;
   margin-right: 20em;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   background-color: green;
 }

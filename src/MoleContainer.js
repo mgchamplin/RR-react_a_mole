@@ -15,10 +15,8 @@ function MoleContainer(props){
     }
 
     return (
-        <div>
-            {displayMole ? <Mole        setDisplay={setTheDisplayMode} handleClick={bopTheMole} /> : 
-                            <EmptySlot  setDisplay={setTheDisplayMode}/>}
-        </div>
+            displayMole ? <Mole        setDisplay={setTheDisplayMode} handleClick={bopTheMole} /> : 
+                            <EmptySlot  setDisplay={setTheDisplayMode}/>
     )
 }
 
